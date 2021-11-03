@@ -1,0 +1,12 @@
+/*CSS basic style sheet
+Includes background color, h1 tag, */
+
+*{
+        background-color: bisque;
+}
+
+.h1{
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    color:darkred;
+}

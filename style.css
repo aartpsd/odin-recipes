@@ -3,7 +3,7 @@
 *{
     background-image: radial-gradient(
         circle,
-         #c89c6a,
+        #F0F3BD,
     );
     font-family: 'Courier New', Courier, monospace;
 }
@@ -22,7 +22,6 @@ h4 {
     font-style:underline;
 }
 .navbar{
-    display: block;
+    display: inline-flex;
     width: 20%;
-    filter: drop-shadow();
 }

@@ -1,12 +1,28 @@
-/*CSS basic style sheet
-Includes background color, h1 tag, */
+/*CSS basic style sheet*/
 
 *{
-        background-color: bisque;
+    background-image: radial-gradient(
+        circle,
+         #c89c6a,
+    );
+    font-family: 'Courier New', Courier, monospace;
 }
-
-.h1{
-    font-size: large;
-    font-family:'Courier New', Courier, monospace;
+h1 {
+    text-align: center;
+    font-size: xx-large;
     color:darkred;
+}
+.description {
+    font-size: small;
+    font-style: italic;
+    color: black;
+}
+h4 {
+    font-size: medium;
+    font-style:underline;
+}
+.navbar{
+    display: block;
+    width: 20%;
+    filter: drop-shadow();
 }

@@ -1,6 +1,6 @@
 /*CSS basic style sheet*/
 
-*{
+* {
     background-image: radial-gradient(
         circle,
         #F0F3BD,
@@ -16,12 +16,21 @@ h1 {
     font-size: small;
     font-style: italic;
     color: black;
+    text-align: center;
 }
-h4 {
-    font-size: medium;
-    font-style:underline;
+.footer{
+    border: cadetblue;
+    border-style: double;
+    border-radius: 2ch;
+    text-align: center;
+    padding: 0.1rem;
 }
-.navbar{
-    display: inline-flex;
-    width: 20%;
+a, li {
+    color:#875C74;
+    align-items: flex-start;
+}
+.navbar {
+    border-style: hidden;
+    padding: 4%;
+    background-color: #C5EBC3;
 }

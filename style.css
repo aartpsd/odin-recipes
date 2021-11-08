@@ -1,36 +1,57 @@
 /*CSS basic style sheet*/
 
 * {
-    background-image: radial-gradient(
-        circle,
-        #F0F3BD,
-    );
     font-family: 'Courier New', Courier, monospace;
 }
-h1 {
+header{
+    display: block;
     text-align: center;
-    font-size: xx-large;
-    color:darkred;
+    flex-direction: row;
+    top: auto;
 }
 .description {
     font-size: small;
     font-style: italic;
     color: black;
-    text-align: center;
 }
-.footer{
-    border: cadetblue;
+h1 {
+    text-align: center;
+    font-size: 44pt;
+    color:darkred;
+}
+main{
+    display: flex;
+    margin: 2px;
+}
+a, li, h2 {
+    color:darkred;
+    align-items: flex-start;
+}
+img{
+    height: auto;
+    width: 300px;
+}
+.navbar {
+    float: left;
+    position: sticky;
+    display: block;
+    flex-direction:column;
+    align-content: flex-start;
+    align-items: flex-start;
+    top: 5px;
+    margin: 2px;
+    background-color: #AFC97E;
+    padding: 10px;
+}
+.recipecontainer{
+    padding: 5px;
+}
+.returntohomebtn{
+    border: darkred;
     border-style: double;
     border-radius: 2ch;
     text-align: center;
-    padding: 0.1rem;
-}
-a, li {
-    color:#875C74;
-    align-items: flex-start;
-}
-.navbar {
-    border-style: hidden;
-    padding: 4%;
-    background-color: #C5EBC3;
+    width: fit-content;
+    padding: 1ch;
+    margin: 10px;
 }

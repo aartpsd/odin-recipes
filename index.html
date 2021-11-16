@@ -10,8 +10,7 @@
     <title>Odin Recipes</title>
 </head>
 <body>
-    <script src="index.js"></script>
-    <!---This links the javascript file to the html file-->
+    <script src="app.js"></script>
     <header>
         <h1>Odin Recipes</h1>
     </header>
@@ -27,15 +26,16 @@
             </ul>
         </div>
     <!---End navbar-->  
-    <!---Begin main: includes the description and recipe container-->  
+    <!---Begin main: includes the recipe container which holds description, h2, img and link-->  
     <main>
         <div class="homerecipecontainer">
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
-            <h2>Recipes</h2>
-            <img src="/images/mvi_4133_moment-e1551663645688-720x720.jpeg" alt="a galazy-themed mirror glaze being poured over a white cake">
-            <p><a href="recipes/mirrorglaze.html">Mirror Glaze</a></p>
-            <img src="/images/Easy-Summer-Peach-Cake-4-600x400.jpeg" alt="a slice of peach cake with powdered sugar and a sliced peach on top served on a plate">
-            <p><a href="/recipes/peachcake.html">Peach Cake</a></p>
+            <h2 style="color: darkred;">Recipes</h2>
+            <div class="homerecipecontainerlinks"><img src="/images/mvi_4133_moment-e1551663645688-720x720.jpeg" alt="a galazy-themed mirror glaze being poured over a white cake">
+                <p><a href="recipes/mirrorglaze.html">Mirror Glaze</a></p>
+                <img src="/images/Easy-Summer-Peach-Cake-4-600x400.jpeg" alt="a slice of peach cake with powdered sugar and a sliced peach on top served on a plate">
+                <p><a href="/recipes/peachcake.html">Peach Cake</a></p>
+            </div>
         </div>
     </main>
     <!---End main-->

@@ -3,55 +3,93 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+head{
+    background-color:#F7E9D4;
+}
 header{
-    display: block;
     text-align: center;
     flex-direction: row;
     top: auto;
-}
-.description {
-    font-size: small;
-    font-style: italic;
-    color: black;
 }
 h1 {
     text-align: center;
     font-size: 44pt;
     color:darkred;
 }
-main{
-    display: flex;
-    margin: 2px;
-}
-a, li, h2 {
-    color:darkred;
-    align-items: flex-start;
-}
-img{
-    height: auto;
-    width: 300px;
-}
 .navbar {
     float: left;
     position: sticky;
     display: block;
     flex-direction:column;
-    align-content: flex-start;
-    align-items: flex-start;
     top: 5px;
-    margin: 2px;
-    background-color: #AFC97E;
+    background-color: rgb(238, 290, 238);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+    border-radius: 1ch;
+    margin: 5px;
     padding: 10px;
 }
-.recipecontainer{
-    padding: 5px;
+.homerecipecontainerlinks{
+    display:block;
+    background-color: rgb(238, 290, 238);
+    border-radius: 1ch;
+    margin: 5px;
+    padding: 50px;
+}
+.description {
+    font-size: medium;
+    font-style: italic;
+    color: black;
+}
+a, li, h2 {
+    color: darkred;
+}    
+img{
+    height: auto;
+    width: 300px;
+}
+main{
+    display: flex;
+    margin: 2px;
+}
+h2 {
+    color: #AFC97E;
+    background-color: rgb(238, 290, 238);
+    border-radius: 1ch;
+    padding: 10px;
+    font-size: 28px;
 }
 .returntohomebtn{
-    border: darkred;
-    border-style: double;
-    border-radius: 2ch;
+    background-color: rgb(238, 290, 238);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+    color: black;
+    border-radius: 3ch;
     text-align: center;
     width: fit-content;
-    padding: 1ch;
+    padding: 10px;
     margin: 10px;
+}
+/*Above is mostly for home page
+Recipe pages below*/
+.recipecontainer{
+    display: block;
+    padding: 10px;
+    background-color: rgb(238, 290, 238);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.15);
+}
+.recipecontainer{
+    background-color: rgb(238, 290, 238);
+    border-radius: 1ch;
+    margin: 5px;
+    padding: 50px;
+}
+.recipecontainer h4{
+    font-size: 22px;
+}
+.recipecontainer li{
+    font-size: 20px;
+    color: #6d8518;
+}
+.recipecontainer img{
+    display: block;
+    margin: auto;
 }
